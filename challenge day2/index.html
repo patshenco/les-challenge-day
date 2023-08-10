@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <br><br><br><br><br><br>
+    <table border="1">
+      <tbody>
+        <tr>
+          <td height="60">January</td>
+          <td>January</td>
+          <td colspan="3" width="120">$100</td>
+        </tr>
+        <tr>
+          <td colspan="3" rowspan="2" height="70">$80</td>
+          <td>January</td>
+        </tr>
+        <tr>
+          <td colspan="2">February</td>
+        </tr>
+      </tbody>
+    </table>
+    <br><br><br><br><br>
+    <form>
+      <fieldset>
+        <legend>Personal details</legend>
+        <p id="p1">Inscription</p>
+        <p>Salutation</p>
+        <select id="None">
+          <option value="None">None--</option>
+          <option value="male">male--</option>
+          <option value="Female">female--</option>
+        </select>
+        <br /><br />
+        <div id="p2">
+          <label for="first-name">First name:</label>
+          <input type="text" id="first-name" name="first-name" /><br /><br />
+
+          <label for="last-name">Last name:</label>
+          <input type="text" id="last-name" name="last-name" /><br /><br />
+
+          <label>Gender:</label>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="date-of-birth">Date of birth:</label>
+          <input
+            type="date"
+            id="date-of-birth"
+            name="date-of-birth"
+          /><br /><br />
+
+          <label for="address">Address:</label><br />
+          <textarea id="address" name="address"></textarea><br /><br />
+
+          <input type="submit" value="Submit" />
+        </div>
+      </fieldset>
+    </form>
+</html>
