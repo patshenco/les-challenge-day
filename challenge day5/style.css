@@ -1,0 +1,146 @@
+body {
+  display: block;
+  margin: 0px;
+}
+nav li {
+  display: inline-block;
+  margin-left: 100px;
+  padding-top: -200px;
+  background: linear-gradient(80deg, #fff9fc, #d4dedd, #bac5c4) fixed;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#png {
+  height: 520px;
+  width: 702px;
+  border-radius: 155px;
+  border-style: inset;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0px;
+}
+
+ul {
+  padding-left: 340px;
+  margin-top: 11px;
+}
+#logo {
+  border-style: inset;
+  margin-left: -20px;
+  height: 76px;
+  width: 150px;
+  display: flex;
+  margin-top: -65px;
+  border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+body {
+  background-color: #f1f3f4;
+}
+.s1 {
+  font-family: fantasy;
+  color: rgb(96, 93, 93);
+}
+#b {
+  display: flex;
+}
+form {
+  margin-left: 50px;
+  margin-top: 150px;
+  text-align: center;
+  background-color: #fff9fc;
+  height: 200px;
+  margin-right: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+#B4 {
+  margin-top: -19px;
+  height: 67px;
+  width: 222px;
+  text-align: left;
+  border-radius: 20px;
+  background-color: color-mix(in srgb-linear, #5f823e 50%, rgb(82, 251, 9) 50%);
+  font-family: cursive;
+  font-size: 20px;
+}
+#shadow {
+  background-color: rgba(117, 113, 113, 0.5);
+  height: 200px;
+  margin-top: -241px;
+  width: 344px;
+  margin-left: -51px;
+}
+#p1{
+  font-size: 28px;
+    margin-top: 33px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    text-align: center;
+}
+.icone{
+  height: 40px;
+  width: 40px;
+  margin-left: 40px;
+  
+}
+#icone1{
+  margin-left: 850px;
+  display: flex;
+  margin-top: 56px;
+}
+#p2{
+  font-family: cursive;
+  font-size: 16px;
+}
+.zoom{
+  height: 47px;
+    width: 42px;
+    background-color: #9a9f9f8e;
+    border-radius: 30px;
+    box-shadow: -5px 2px 4px rgba(0, 0, 0, 0.1), 0 8px 6px rgba(0, 0, 0, 0.1);
+  }
+#ZOOM{
+  margin-top: 227px;
+    margin-left: -87px;
+}
+
+
+.footer{
+  height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: -17px;
+}
+#footer1{
+  
+  display: flex;
+  text-align: center;
+}
+h1{
+  font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 0.525em;
+   
+}
+.info{
+  font-size: 19px;
+    margin-top: 33px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 400px;
+    text-align: center;
+}
+.dv{
+  text-align: center;
+  
+}
+a{
+  color: blue;
+}
+
+  
