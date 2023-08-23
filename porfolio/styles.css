@@ -249,9 +249,9 @@ header input{
     margin-top: 50px;
 }
 .contact li{
-    width: 50px;
-    height: 50px;
-    margin: 20px;
+    width: 31px;
+    height: 29px;
+    margin: 13px;
     box-shadow: var(--box-shadow);
     display: flex;
     justify-content: center;
