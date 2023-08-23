@@ -39,12 +39,12 @@ header{
     display: grid;
     grid-template-columns: 20% 70%;
     background-image: url(images/mAKkDmITIrCVuRk5m2Owi-transformed.jpeg);
-    height: 51px;
+    height: 40px;
 }
 header .logo img {
     position: absolute;
-    height: 104px;
-    width: 111px;
+    height: 88px;
+    width: 98px;
     border-radius: 18px;
     margin-top: -27px;
     object-fit: cover;
