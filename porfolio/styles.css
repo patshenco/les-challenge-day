@@ -385,3 +385,9 @@ form button:hover{
     }
 
 }
+@media screen and (max-width: 767px){
+    form button:hover{
+        color: #fff;
+        background-image: var(--gradient-bg);
+    }
+}
