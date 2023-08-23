@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    
+
+    <header>
+        <div class="logo">
+            <img src="images/Picsart_23-08-21_15-35-45-403.png" alt="">
+        </div>
+       <div class="navDiv">
+        <label for="menu">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+       </div>
+        <input type="checkbox" id="menu">
+        <ul class="nav">
+
+            <label for="menu">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <div class="banner" id="home">
+            <div class="content">
+                <p>WELCOME TO MY PROFILE</p>
+                <h1>
+                    Hi, I'm Anas Fouham <br/>
+                    a <div class="gradientText">
+                        <div class="job" data-job1="{Developer.}" data-job2="{Junior.}"></div>
+                    </div>
+                </h1>
+                <p>
+                    I am young, Moroccan, 24 years old. Passionate about modern technology since I entered college. I am a dedicated enthusiast of web development in constant evolution. Every line of code I write is an opportunity for innovation and creativity. My goal is to craft captivating and functional online experiences, collaborating with other creative minds. Always eager to learn and take on new challenges, I am determined to shape an exciting and ever-expanding digital future.
+                </p>
+                <div class="find">
+                    <h3>FIND WITH ME</h3>
+                    <ul>
+
+
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                        <li><i class="fa-brands fa-whatsapp"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="avatar">
+                <img src="images/pic-removebg-preview.png" alt="">
+            </div>
+        </div>
+
+       <div id="skill">
+        <h1 class="title">SKILL</h1>
+        <div class="listSkill">
+            <div class="item">
+                <div class="name">HTML5</div>
+                <div class="evaluate" style="--point:80%"></div>
+            </div>
+            <div class="item">
+                <div class="name">CSS</div>
+                <div class="evaluate" style="--point:70%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Git</div>
+                <div class="evaluate" style="--point:80%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Github</div>
+                <div class="evaluate" style="--point:60%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Laravel</div>
+                <div class="evaluate" style="--point:70%"></div>
+            </div>
+            <div class="item">
+                <div class="name">React JS</div>
+                <div class="evaluate" style="--point:90%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Vue JS</div>
+                <div class="evaluate" style="--point:60%"></div>
+            </div>
+            <div class="item">
+                <div class="name">Linux</div>
+                <div class="evaluate" style="--point:70%"></div>
+            </div>
+        </div>
+       </div>
+       <div id="project">
+            <h1 class="title">PROJECT</h1>
+            <div class="listProject">
+                <div class="item">
+                    <img id="i1" src="images/1.JPG" alt="">
+                    <div class="name">
+                        Magic Page Challenge
+                    </div>
+                </div>
+                <div  class="item">
+                    <img id="i1" src="images/2.JPG" alt="">
+                    <div class="name">
+                        Picasso Table / Signup Form
+                    </div>
+                </div>
+                <div class="item">
+                    <img id="i1" src="images/3.JPG" alt="">
+                    <div class="name">
+                        Facebook Challenge
+                    </div>
+                </div>
+                <div class="item">
+                    <img id="i1" src="images/4.JPG" alt="">
+                    <div class="name">
+                        CSS Position Challenge
+                    </div>
+                </div>
+                <div class="item">
+                    <img id="i1" src="images/5.JPG" alt="">
+                    <div class="name">
+                       Youtube Challenge
+                    </div>
+                </div>
+                <div class="item">
+                    <img id="i1" src="images/6.JPG" alt="">
+                    <div class="name">
+                        CSS Grid Layout Challenge
+                    </div>
+                </div>
+            </div>
+       </div>
+       <div id="contact">
+        <h1 class="title">Contact</h1>
+        <form id="contact-form" action="https://formsubmit.co/anas.fouham@dwm.ma" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br/><br/>
+
+            <button type="submit">Envoyer</button>
+        </form>
+
+       </div>
+
+
+    </div>
+    <div class="footer">
+        <ul class="contact">
+
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-whatsapp"></i></li>
+        </ul>
+    </div>
+    
+
+
+
+</body>
+</html>

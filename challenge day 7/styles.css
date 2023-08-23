@@ -2,7 +2,7 @@
   display: grid;
   margin: 20px auto;
   width: 813px;
-  height: 1153px;
+  height: 1500px;
   text-align: center;
   gap: 10px 10px;
   grid-template-areas:"header1 header1 header1 header1 header1 header1" 
@@ -19,7 +19,7 @@
     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.493), rgba(255, 255, 255, 0.342)), url(images/pizza.jpg);
     
     background-size: cover;
-    height: 410px;
+    height: 577px;
     grid-area: header1;
     position: relative;
     
@@ -155,7 +155,7 @@
 .container{
     position: relative;
     display: block;
-    margin-top: 100px;
+    margin-top: 30px;
     
 }
 h2{
