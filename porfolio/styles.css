@@ -248,6 +248,7 @@ header input{
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    justify-content: flex-end;
 }
 .contact li{
     width: 31px;
