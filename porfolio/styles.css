@@ -92,6 +92,7 @@ header ul li{
 .footer{
     background-image: var(--gradient-bg);
     margin-bottom: -48px;
+    
 }
 .job{
    display: inline-block;
