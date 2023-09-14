@@ -60,5 +60,3 @@ function game() {
     }
 }
 
-// Start the game
-game();
